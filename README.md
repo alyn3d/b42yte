@@ -24,7 +24,7 @@ Installation using npm
 ```javascript
 import { GetAdvice } from 'b42yte';
 
-GetAdvice();
+GetAdvice('Your name here');
 ```
 
 #### Get the answer to life, the universe and everything 
@@ -39,4 +39,16 @@ TheAnswerToLifeTheUniverseAndEverything();
 import { GetQuote } from 'b42yte';
 
 GetQuote();
+```
+
+#### CommonJS 
+```javascript
+var b42yte = require("b42yte");
+
+// Get advice from marvin
+b42yte.GetAdvice('Your name here');
+// Get the answer to life, the universe and everything 
+b42yte.TheAnswerToLifeTheUniverseAndEverything();
+// Get a random quote from HHGTTG
+b42yte.GetQuote();
 ```
