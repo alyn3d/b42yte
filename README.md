@@ -1,0 +1,42 @@
+
+# 42 Bytes => "answer to life the universe and everything"
+
+Simple NPM package based on the Hitchiker's Guide to the Galaxy
+
+## Features
+
+- Get advice from Marvin
+- Get the answer to life, the universe and everything
+- Get a random HHGTTG quote
+
+
+## Installation
+
+Installation using npm
+
+```bash
+  npm install b42yte
+```
+    
+## Usage/Examples
+
+#### Get advice from marvin 
+```javascript
+import { GetAdvice } from 'b42yte';
+
+GetAdvice();
+```
+
+#### Get the answer to life, the universe and everything 
+```javascript
+import { TheAnswerToLifeTheUniverseAndEverything } from 'b42yte';
+
+TheAnswerToLifeTheUniverseAndEverything();
+```
+
+#### Get a random quote from HHGTTG
+```javascript
+import { GetQuote } from 'b42yte';
+
+GetQuote();
+```
