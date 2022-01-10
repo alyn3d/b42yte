@@ -8,7 +8,7 @@ Simple NPM package based on the Hitchiker's Guide to the Galaxy
 - Get advice from Marvin
 - Get the answer to life, the universe and everything
 - Get a random HHGTTG quote
-- Get remaining days until Towel Day. Towel Day is an annual celebration on the 25th of May (On that day, fans around the universe carry a towel in his honour.)
+- Get remaining days until Towel Day. Towel Day is an annual celebration on the 25th of May (On that day, fans around the universe carry a towel to honour Douglas Adams.)
 
 
 ## Installation
