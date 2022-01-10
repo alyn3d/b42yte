@@ -52,3 +52,6 @@ b42yte.TheAnswerToLifeTheUniverseAndEverything();
 // Get a random quote from HHGTTG
 b42yte.GetQuote();
 ```
+
+## Contributing
+[Contributors are welcome](https://github.com/alyn3d/b42yte/blob/master/CONTRIBUTING.md)
