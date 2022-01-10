@@ -1,6 +1,6 @@
 {
   "name": "b42yte",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "42 bytes of The Hitchiker's Guide to the Galaxy",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
