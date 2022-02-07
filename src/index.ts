@@ -1,5 +1,8 @@
 import { HHGTTGQuotes } from './quotes';
+//Helper functions
+const randomInt = (max:number, min:number):number => Math.round(Math.random() * (max - min)) + min;
 
+//package functions
 export const GetAdvice = (name: string):string => `I'd give you advice, ${name} but you wouldn't listen. No one ever does.`;
 
 export const TheAnswerToLifeTheUniverseAndEverything = ():number => 42;
@@ -24,4 +27,14 @@ export const IsItTowelDay = ():string => {
   } else {
       return `Today is Towel Day. Don't forget your towel!`;
   }
+};
+
+export const GetImprobabilityLevel = (exponentiation:boolean):string => {
+    var baseNumber = randomInt(8, 1);
+    var exponent = randomInt(250000,999999);
+    if (exponentiation) {
+        return `${baseNumber}^${exponent}:1`;
+    } else {
+        return `Current improbability level: ${baseNumber}^${exponent}:1`;
+    }    
 };

@@ -49,6 +49,15 @@ import { IsItTowelDay } from 'b42yte';
 IsItTowelDay();
 ```
 
+#### Get currernt improbability level
+```javascript
+import { GetImprobabilityLevel } from 'b42yte';
+
+GetImprobabilityLevel(true);
+```
+###### If true is passed the return will be something like: "8^621315:1"
+###### If false is passed the return will be something like: "Current improbability level: 4^710575:1"
+
 #### CommonJS 
 ```javascript
 var b42yte = require("b42yte");
@@ -61,6 +70,8 @@ b42yte.TheAnswerToLifeTheUniverseAndEverything();
 b42yte.GetQuote();
 // Get days remaining until Towel Day
 b42yte.IsItTowelDay();
+// Get current improbability level
+b42yte.GetImprobabilityLevel(true);
 ```
 
 ## Contributing
