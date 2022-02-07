@@ -9,6 +9,7 @@ Simple NPM package based on the Hitchiker's Guide to the Galaxy
 - Get the answer to life, the universe and everything
 - Get a random HHGTTG quote
 - Get remaining days until Towel Day. Towel Day is an annual celebration on the 25th of May (On that day, fans around the universe carry a towel in honour of Douglas Adams.)
+- Get current improbability level
 
 
 ## Installation
@@ -49,7 +50,7 @@ import { IsItTowelDay } from 'b42yte';
 IsItTowelDay();
 ```
 
-#### Get currernt improbability level
+#### Get current improbability level
 ```javascript
 import { GetImprobabilityLevel } from 'b42yte';
 
